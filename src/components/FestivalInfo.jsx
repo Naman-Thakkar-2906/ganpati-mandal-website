@@ -119,7 +119,7 @@ const FestivalInfo = () => {
                         {event.description}
                       </p>
                     </div>
-                    <div className="text-ganpati-red bg-ganpati-red/10 px-4 py-2 rounded-lg inline-block md:inline-flex border border-ganpati-red/20 font-devanagari font-medium mt-2 md:mt-0 shadow-inner">
+                    <div className="text-ganpati-gold bg-ganpati-gold/10 px-4 py-2 rounded-lg inline-block md:inline-flex border border-ganpati-gold/20 font-devanagari font-medium mt-2 md:mt-0 shadow-[0_0_10px_rgba(212,175,55,0.2)]">
                       {event.time}
                     </div>
                   </div>

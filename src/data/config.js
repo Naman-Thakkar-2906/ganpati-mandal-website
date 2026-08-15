@@ -61,9 +61,9 @@ export const config = {
   ],
 
   quickActions: [
-    { id: "location", title: "स्थान", url: "YOUR_GOOGLE_MAPS_URL", icon: MapPin },
+    { id: "location", title: "स्थान", url: "https://maps.app.goo.gl/uJ1kLQLEYfHmQDNEA?g_st=ic", icon: MapPin },
     { id: "aarti", title: "आरती", url: "#events", icon: Clock },
-    { id: "whatsapp", title: "WhatsApp", url: "YOUR_WHATSAPP_URL", icon: MessageCircle },
+    { id: "whatsapp", title: "WhatsApp", url: "https://chat.whatsapp.com/EhqFydefjIe6Hq7l95EwCq?s=sh&p=i&mlu=0", icon: MessageCircle },
     { id: "gallery", title: "फोटो गैलरी", url: "#gallery", icon: ImageIcon }
   ],
 
