@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">बारोट वास चा राजा</title>
+  <desc id="desc">Premium royal Ganpati emblem with a gold and maroon ornamental design.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2a8"/>
+      <stop offset=".28" stop-color="#f2c75c"/>
+      <stop offset=".58" stop-color="#b97816"/>
+      <stop offset=".82" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#a86610"/>
+    </linearGradient>
+    <linearGradient id="maroon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#721525"/>
+      <stop offset="1" stop-color="#300914"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#ffe9a0" stop-opacity=".65"/>
+      <stop offset=".7" stop-color="#b87918" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#b87918" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Transparent canvas; emblem only -->
+  <circle cx="600" cy="290" r="275" fill="url(#halo)"/>
+
+  <!-- Halo -->
+  <circle cx="600" cy="275" r="215" fill="url(#maroon)" stroke="url(#gold)" stroke-width="12"/>
+  <circle cx="600" cy="275" r="195" fill="none" stroke="#d39b35" stroke-width="3" opacity=".8"/>
+
+  <!-- Crown -->
+  <path d="M492 190 L515 104 L555 140 L600 68 L645 140 L685 104 L708 190
+           Q600 225 492 190Z"
+        fill="url(#gold)" stroke="#8c5510" stroke-width="5"/>
+  <path d="M548 157 L600 88 L652 157" fill="none" stroke="#fff0a0" stroke-width="5"/>
+  <circle cx="600" cy="113" r="12" fill="#8f1626" stroke="#ffd96a" stroke-width="5"/>
+
+  <!-- Ears -->
+  <path d="M508 228 C435 180 368 220 382 292 C393 350 449 357 510 315"
+        fill="none" stroke="url(#gold)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M692 228 C765 180 832 220 818 292 C807 350 751 357 690 315"
+        fill="none" stroke="url(#gold)" stroke-width="24" stroke-linecap="round"/>
+
+  <!-- Face -->
+  <path d="M500 220 C500 166 543 140 600 140 C657 140 700 166 700 220
+           L700 294 C700 365 657 404 600 404 C543 404 500 365 500 294Z"
+        fill="#f3d4a5" stroke="url(#gold)" stroke-width="10"/>
+
+  <!-- Eyes -->
+  <path d="M540 251 Q563 232 582 251" fill="none" stroke="#5d2718" stroke-width="9" stroke-linecap="round"/>
+  <path d="M618 251 Q637 232 660 251" fill="none" stroke="#5d2718" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Tilak -->
+  <path d="M600 176 L583 207 L600 224 L617 207Z" fill="#c41f32"/>
+  <circle cx="600" cy="235" r="6" fill="#c41f32"/>
+
+  <!-- Trunk -->
+  <path d="M600 250 C570 292 563 337 579 369 C596 402 646 405 663 372
+           C676 346 657 322 637 330 C621 336 620 354 630 364"
+        fill="none" stroke="#f3d4a5" stroke-width="32" stroke-linecap="round"/>
+  <path d="M600 250 C570 292 563 337 579 369 C596 402 646 405 663 372
+           C676 346 657 322 637 330 C621 336 620 354 630 364"
+        fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tusks -->
+  <path d="M555 321 Q520 347 505 326" fill="none" stroke="#fff1d0" stroke-width="15" stroke-linecap="round"/>
+  <path d="M645 321 Q680 347 695 326" fill="none" stroke="#fff1d0" stroke-width="15" stroke-linecap="round"/>
+
+  <!-- Blessing hand -->
+  <path d="M460 360 Q415 332 424 289 Q431 263 451 271 L458 314
+           L466 260 Q470 245 484 252 L483 313 L493 270 Q499 255 511 264
+           L505 323 Q504 354 480 375Z"
+        fill="#f3d4a5" stroke="url(#gold)" stroke-width="7"/>
+  <text x="465" y="325" text-anchor="middle" font-size="30" font-family="serif" fill="#b21e31">ॐ</text>
+
+  <!-- Modak hand -->
+  <path d="M740 365 Q785 340 775 296 Q768 270 749 277 L742 316
+           L734 267 Q730 252 716 259 L717 315 L707 276 Q701 261 689 270
+           L695 325 Q696 354 720 379Z"
+        fill="#f3d4a5" stroke="url(#gold)" stroke-width="7"/>
+  <path d="M737 294 Q757 260 777 294 Q758 329 737 294Z" fill="url(#gold)" stroke="#8c5510" stroke-width="4"/>
+
+  <!-- Necklace -->
+  <path d="M518 385 Q600 445 682 385" fill="none" stroke="url(#gold)" stroke-width="15"/>
+  <circle cx="600" cy="420" r="18" fill="#8f1626" stroke="#f5cc5b" stroke-width="7"/>
+
+  <!-- Royal banner -->
+  <path d="M205 515 Q600 455 995 515 L940 705 Q600 755 260 705Z"
+        fill="url(#maroon)" stroke="url(#gold)" stroke-width="13"/>
+  <path d="M235 535 Q600 490 965 535" fill="none" stroke="#ffe08a" stroke-width="4"/>
+
+  <!-- Side ornaments -->
+  <path d="M260 545 Q205 505 158 560 Q205 575 229 610 Q190 612 166 652
+           Q225 664 278 620" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M940 545 Q995 505 1042 560 Q995 575 971 610 Q1010 612 1034 652
+           Q975 664 922 620" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Main title -->
+  <text x="600" y="590" text-anchor="middle"
+        font-family="Noto Serif Devanagari, Devanagari Sangam MN, serif"
+        font-size="72" font-weight="700" fill="url(#gold)"
+        stroke="#6e3b0b" stroke-width="2" paint-order="stroke">
+    बारोट वास चा
+  </text>
+  <text x="600" y="675" text-anchor="middle"
+        font-family="Noto Serif Devanagari, Devanagari Sangam MN, serif"
+        font-size="112" font-weight="800" fill="url(#gold)"
+        stroke="#6e3b0b" stroke-width="3" paint-order="stroke">
+    राजा
+  </text>
+
+  <!-- Motto plaque -->
+  <rect x="425" y="720" width="350" height="58" rx="18" fill="url(#gold)" stroke="#7b470c" stroke-width="5"/>
+  <text x="600" y="760" text-anchor="middle"
+        font-family="Noto Serif Devanagari, Devanagari Sangam MN, serif"
+        font-size="28" font-weight="700" fill="#5a121d">
+    ॥ श्री गणेशाय नमः ॥
+  </text>
+
+  <!-- Decorative bottom diamond -->
+  <path d="M600 792 l16 16 -16 16 -16-16Z" fill="url(#gold)"/>
+</svg>
