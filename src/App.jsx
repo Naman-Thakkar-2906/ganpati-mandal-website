@@ -20,13 +20,13 @@ function App() {
       <ParticleBackground />
       <main className="relative z-10 w-full flex flex-col items-center">
         <Hero />
-        <QuickActions />
+        <SocialCards />
         <JourneyTimeline />
         <YearBasedGallery />
         <Countdown />
         <FestivalInfo />
         <Donation />
-        <SocialCards />
+        {/* <QuickActions /> */}
       </main>
       <Footer />
     </div>

@@ -46,6 +46,7 @@ const FestivalInfo = () => {
       >
         {Object.entries(config.scheduleInfo).map(([key, value], index) => {
           const titles = {
+            aartiTime: "आरती का समय",
             morningAarti: "प्रातः आरती",
             eveningAarti: "संध्या आरती",
             mahaprasad: "महाप्रसाद",
@@ -116,7 +117,7 @@ const FestivalInfo = () => {
                         {event.title}
                       </h3>
                       <p className="text-ganpati-ivory/70 font-devanagari text-sm md:text-base">
-                        {event.description}
+                        {event.date && event.day ? `${event.date} • ${event.day}` : event.description}
                       </p>
                     </div>
                     <div className="text-ganpati-gold bg-ganpati-gold/10 px-4 py-2 rounded-lg inline-block md:inline-flex border border-ganpati-gold/20 font-devanagari font-medium mt-2 md:mt-0 shadow-[0_0_10px_rgba(212,175,55,0.2)]">
